@@ -1,0 +1,8 @@
+create database springboot_crud_restful_pattern;
+use springboot_crud_restful_pattern;
+
+select * from employees_tbl;
+
+ALTER TABLE `employees_tbl` modify `id` INT NOT NULL AUTO_INCREMENT;
+
+SELECT id,first_name,last_name,email_id FROM EMPLOYEES_TBL;
